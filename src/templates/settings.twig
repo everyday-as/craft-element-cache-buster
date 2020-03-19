@@ -1,0 +1,23 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Element Cache Buster plugin for Craft CMS 3.x
+ *
+ * Element Cache Buster Settings.twig
+ *
+ * @author    Everyday AS
+ * @copyright Copyright (c) 2020 Everyday AS
+ * @link      https://everyday.no
+ * @package   ElementCacheBuster
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.checkbox({
+    label: 'Enable cache busting',
+    id: 'enabled',
+    name: 'enabled',
+    checked: settings['enabled']})
+}}

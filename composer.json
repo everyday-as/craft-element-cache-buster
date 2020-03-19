@@ -1,0 +1,40 @@
+{
+    "name": "everyday/craft-element-cache-buster",
+    "description": "Bust the Craft CMS cache when an entry is updated/deleted, a structure is moved or a project config is updated or applied.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "element cache buster"
+    ],
+    "support": {
+        "docs": "https://github.com/everyday-as/element-cache-buster/blob/master/README.md",
+        "issues": "https://github.com/everyday-as/element-cache-buster/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Everyday AS",
+            "homepage": "https://everyday.no"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "everyday\\ElementCacheBuster\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Element Cache Buster",
+        "handle": "element-cache-buster",
+        "hasCpSettings": true,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/everyday-as/element-cache-buster/master/CHANGELOG.md",
+        "class": "everyday\\ElementCacheBuster\\ElementCacheBuster"
+    }
+}
