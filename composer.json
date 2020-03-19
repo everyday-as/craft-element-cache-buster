@@ -2,7 +2,7 @@
     "name": "everyday/craft-element-cache-buster",
     "description": "Bust the Craft CMS cache when an entry is updated/deleted, a structure is moved or a project config is updated or applied.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",

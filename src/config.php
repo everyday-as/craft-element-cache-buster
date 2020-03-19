@@ -24,6 +24,6 @@
 
 return [
 
-    "enabled" => false,
+    "enabled" => true,
 
 ];

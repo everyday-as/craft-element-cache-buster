@@ -22,7 +22,7 @@ class Settings extends Model
     /**
      * @var string
      */
-    public $enabled = false;
+    public $enabled = true;
 
     /**
      * @inheritdoc
